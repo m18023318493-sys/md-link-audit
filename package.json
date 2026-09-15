@@ -1,0 +1,37 @@
+{
+  "name": "md-link-audit",
+  "version": "0.1.0",
+  "description": "A tiny zero-dependency CLI that finds broken local links, images, and heading anchors in Markdown files.",
+  "type": "module",
+  "bin": {
+    "md-link-audit": "./src/cli.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "check": "node ./src/cli.js .",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "markdown",
+    "link-checker",
+    "cli",
+    "documentation",
+    "github-actions"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m18023318493-sys/md-link-audit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/m18023318493-sys/md-link-audit/issues"
+  },
+  "homepage": "https://github.com/m18023318493-sys/md-link-audit#readme",
+  "license": "MIT"
+}
